@@ -1,3 +1,4 @@
+--lua 脚本
 local key = "rate.limit:" .. KEYS[1] --限流KEY
 local limit = tonumber(ARGV[1])        --限流大小
 local time = tonumber(ARGV[2])
