@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-boot-limit
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
